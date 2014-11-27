@@ -1,0 +1,4 @@
+aplicação simples feita em php
+crie um banco de dados e importe essa tabela "contatos"
+abra a pasta abstractdao e coloque os dados
+do banco de dados criado.

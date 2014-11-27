@@ -1,0 +1,29 @@
+<?php
+/**
+ * função autoload para incluir classes de vários diretórios sem precisar incluir manualmente
+ * @author Eric Ferraz
+ * @since 23/02/2014
+ * @version 1.0
+ * @version 2.0 adicionado diretórios da camada mvc
+ */
+ function __autoload($classes) {
+ 	
+    /* diretório principal das classes */
+ 	
+ 	/**
+ 	extenção dos meus arquivos
+ 	 */
+ 	$extencao 	  = ".class";
+ 	$exetencaoFim = ".php";
+ 	
+ 	//subdiretórios
+    $diretorios = array('../../abstractdao/','../../abstractpo/','../../exceptions/','../controller/','../dao/','../model/');
+    
+    foreach ($diretorios as $valor) {
+        if (file_exists($valor . $classes .$extencao.$exetencaoFim)) {
+            require_once $valor . $classes .$extencao.$exetencaoFim;
+        }
+        
+    }
+}
+?>

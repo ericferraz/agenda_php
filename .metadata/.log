@@ -1,0 +1,10 @@
+!SESSION 2014-04-13 11:57:58.771 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.php.product -product org.eclipse.epp.package.php.product -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.php.product -product org.eclipse.epp.package.php.product -data C:\xampp\htdocs\workspace\Agenda -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.php.debug.core 4 4 2014-04-13 11:58:05.505
+!MESSAGE The debug port 10000 is in use. Please select a different port for the debugger.
